@@ -1,4 +1,4 @@
-def main(A,B):
+def main(A, B):
     """
     Return the numbers from A to B in the form of a list.
     Args:
@@ -7,4 +7,11 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    ans = []
+
+    for i in range(A, B + 1):
+        ans.append(i)
+    return ans
+
+
+print(main(2, 7))
