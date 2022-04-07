@@ -1,4 +1,4 @@
-def main(k,n):
+def main(k, n):
     """
     Repeat the number k n times and return to the list view.
     Args:
@@ -7,4 +7,11 @@ def main(k,n):
     Returns:
         list: return  answer
     """
-    return
+    ans = []
+
+    for _ in range(n):
+        ans.append(k)
+    return ans
+
+
+print(main(5, 3))
