@@ -6,4 +6,12 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    sum = 0
+
+    for i in range(N):
+        if i % 2 == 1:
+            sum += i
+    return sum
+
+
+print(main(12))
