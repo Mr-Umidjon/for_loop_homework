@@ -1,4 +1,4 @@
-def main(A,B):
+def main(A, B):
     """
     Return the sum of all integers from A to B.
     Args:
@@ -7,4 +7,11 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    sum = 0
+
+    for i in range(A, B):
+        sum += i
+    return sum
+
+
+print(main(3, 6))
